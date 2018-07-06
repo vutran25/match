@@ -18,7 +18,7 @@ class Profiles(object):
 
         self.count = count
         self.index = 0
-        self.males = -count / 2
+        self.balance = 0
 
     def __iter__(self):
         return self
@@ -28,11 +28,11 @@ class Profiles(object):
             self.index += 1
 
             # Balance out males and females
-            if self.count - self.index < abs(self.males):
-                gender = self.males < 0
+            if self.count - self.index < abs(self.balance):
+                gender = self.balance < 0
             else:
                 gender = random.random() > 0.5
-            self.males += gender
+            self.balance += 1 if gender else -1
 
             return {
                 "gender": gender,
