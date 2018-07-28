@@ -13,3 +13,12 @@ Your job is to pair each female with a male for their first date so the pairs re
 You can get the profiles as an iterable by invoking Profiles(count), where count is the number of profiles to be paired - you are guaranteed to get half males and half females. For this project, pair 100 users (50 females with 50 males).
 
 Also, your manager insists that you write unit tests to confirm that your software indeed satisfies these requirements.
+
+Aspect                       | Points
+---------------------------- | :----:
+Operation (50)               | 50
+Organization (50)            | 50
+Code quality (100)           | 100
+Tests (50)                   | 50
+Application of concepts (50) | 50
+TOTAL                        | 300
